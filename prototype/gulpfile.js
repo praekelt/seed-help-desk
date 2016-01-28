@@ -98,3 +98,4 @@ gulp.task('clean', function(cb) {
 
 // by default build project and then watch files in order to trigger livereload
 gulp.task('default', ['images', 'html', 'scripts', 'js', 'icons', 'styles', 'watch', 'server']);
+// gulp.task('default', ['images', 'html', 'js', 'icons', 'styles', 'watch', 'server']);
